@@ -214,9 +214,11 @@ nav img {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
 .aligncenter {
     align-items: center;
 }
+
 .about-us-col {
     flex-basis: 49%;
     margin-bottom: 5%;
@@ -365,6 +367,10 @@ footer img {
 }
 
 @media only screen and (max-width: 480px) {
+    nav {
+        padding: 5% 3%;
+    }
+
     .nav-links {
         display: none;
     }
@@ -376,21 +382,27 @@ footer img {
     .text-box h2 {
         font-size: 1.25rem;
     }
+
     nav img {
         width: 120px;
     }
+
     .greeting {
         width: 90%;
     }
+
     .greeting h2 {
         font-size: 2.5rem;
     }
+
     .greeting p {
         font-size: 1rem;
     }
+
     .greeting h4 {
         font-size: 1.5rem;
     }
+
     .cards {
         width: 95%;
     }
@@ -407,9 +419,11 @@ footer img {
         flex-direction: column;
         margin-bottom: 0;
     }
+
     .form-col {
         margin-bottom: 2rem;
     }
+
     .form-block {
         margin-bottom: 2rem;
     }
